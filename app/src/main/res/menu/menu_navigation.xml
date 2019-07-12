@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/str_menu_mi_cuenta">
+        <menu>
+            <item
+                    android:id="@+id/perfil_fragment"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="@string/str_menu_perfil"/>
+            <item
+                    android:id="@+id/favoritos_fragment"
+                    android:icon="@drawable/ic_favorite_black_24dp"
+                    android:title="@string/str_menu_favorite"/>
+            <item
+                    android:id="@+id/carrito_fragment"
+                    android:icon="@drawable/ic_local_grocery_store_black_24dp"
+                    android:title="@string/str_menu_carrito"/>
+            <item
+                    android:icon="@drawable/ic_local_shipping_black_24dp"
+                    android:id="@+id/orden_fragment"
+                    android:title="@string/str_menu_order"/>
+        </menu>
+    </item>
+    <item android:title="@string/str_menu_otros">
+        <menu>
+            <item
+                    android:id="@+id/compartir_fragment"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="@string/str_menu_compartir"/>
+            <item
+                    android:id="@+id/mensaje_fragment"
+                    android:icon="@drawable/ic_email_black_24dp"
+                    android:title="@string/str_menu_mensaje"/>
+            <item
+                    android:id="@+id/informacion_fragment"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="@string/str_menu_informacion"/>
+        </menu>
+    </item>
+
+
+</menu>

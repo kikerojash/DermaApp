@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_dermo.xml"
+            app:startDestination="@+id/dermo_fragment">
+    <!--Fragmento Inicial !-->
+    <fragment
+            android:id="@+id/dermo_fragment"
+            android:name="com.farmaciasperuanas.dermaapp.main.fragment.DermoFragment"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_dermo"/>
+    <fragment
+            android:id="@+id/perfil_fragment"
+            android:name="com.farmaciasperuanas.dermaapp.main.perfil.PerfilFragment"
+            android:label="Perfil Fragment"
+            tools:layout="@layout/fragment_perfil"/>
+    <fragment
+            android:id="@+id/favoritos_fragment"
+            android:name="com.farmaciasperuanas.dermaapp.main.favoritos.FavoritosFragment"
+            android:label="Favoritos Fragment"
+            tools:layout="@layout/fragment_favoritos"/>
+    <fragment
+            android:id="@+id/carrito_fragment"
+            android:name="com.farmaciasperuanas.dermaapp.main.carrito.CarritoFragment"
+            android:label="Carrito Fragment"
+            tools:layout="@layout/fragment_carrito"/>
+
+
+    <fragment
+            android:id="@+id/orden_fragment"
+            android:name="com.farmaciasperuanas.dermaapp.main.orden.OrdenFragment"
+            android:label="Orden Fragment"
+            tools:layout="@layout/fragment_orden"/>
+
+
+    <!--<activity-->
+            <!--android:id="@+id/carrito_fragment"-->
+            <!--android:name="com.farmaciasperuanas.jetckpakapp.carrito.CarritoActivity"-->
+            <!--android:label="Carrito Fragment"-->
+            <!--tools:layout="@layout/activity_carrito"></activity>-->
+
+</navigation>

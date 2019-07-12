@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DermaApp</string>
+    <string name="navigation_drawer_header_content_description">Titulo Header</string>
+    <string name="str_menu_perfil">Mi Perfil</string>
+    <string name="str_menu_favorite">Mis Favoritos</string>
+    <string name="str_menu_carrito">Mi Carrito</string>
+    <string name="str_menu_order">Mis Ordenes</string>
+    <string name="str_menu_mi_cuenta">Mi Cuenta</string>
+    <string name="str_menu_otros">Otros</string>
+    <string name="str_menu_compartir">Compatir</string>
+    <string name="str_menu_mensaje">Email</string>
+    <string name="str_menu_informacion">App Info</string>
+    <string name="title_activity_buscar">Buscar Producto</string>
+    <string name="title_activity_carrito">Mi Compra</string>
+    <string name="str_text_promociones">Promociones</string>
+    <string name="str_tabs_promociones">Promociones</string>
+    <string name="str_tabs_categorias">Categorias</string>
+</resources>
